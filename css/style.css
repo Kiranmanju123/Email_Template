@@ -1,47 +1,64 @@
+
 #text_color{
  color: #3B325F;
 }
+.border {
+	width: 35% !important;
+}
 
-.bg {
+footer {
 	 background-color: #E9B640;
 	 border-radius: 15px;
 	 color: white;
-	 margin-right: 30%;
-	 margin-left: 30%;
+	 margin-right: 10%;
+	 margin-left: 10%;
 }
-.btn-primary {
-	border-radius: 8px !important;
-}
+
+
 .txt_lg{
 	font-size: 20px;
 }
-.img_lg {
-	width: 10%;
+.txt_lg_card{
+	font-size: 15px;
+}
+.img_lg1 {
+	width: 20%;
+}
+.img_lg2 {
+	width: 27%;
 }
 .lg_text {
-   	font-size: 20px;
+   	font-size: 14px;
    	color: #3B325F;
    }
 .lg_text1 {
-   	font-size: 16px;
+   	font-size: 12px;
    	color: #3B325F;
    }
 .link_none {
 	text-decoration: none;
 }
 .btn-primary {
-    	padding: 8px 36px !important;
-    }
+    	padding: 4px 22px !important;
+    	border-radius: 8px !important; 
+}
+.btn_fs_lg {
+	font-size: 12px;
+}
 
 
 @media (min-width: 350px) and (max-width: 800px) {
+	.border {
+	width: 100% !important;
+}
+
 
    .img_resposive {
-   	width: 22%;
+   	width: 25%;
    }
 
    .img_resposive1 {
-   	width: 32%;
+   	width: 33%;
    }
    .res_text {
    	font-size: 15px;
@@ -56,7 +73,7 @@
     	padding: 4px 12px !important;
     }
    .res_font_size {
-   	font-size: 12px;
+   	font-size: 10px;
    	color: #3B325F;
    	text-decoration: none;
    }
@@ -77,5 +94,11 @@
    .btn_fs_res {
    	font-size: 12px;
    }
+  .res_mg{
+  	padding-left: 30px;
+  	padding-right: 30px;
 
+  	
+
+  }
 }
