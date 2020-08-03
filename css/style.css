@@ -3,7 +3,7 @@
  color: #3B325F;
 }
 .border {
-	width: 35% !important;
+	width: 27% !important;
 }
 
 footer {
@@ -22,18 +22,19 @@ footer {
 	font-size: 15px;
 }
 .img_lg1 {
-	width: 20%;
+	width: 25%;
 }
 .img_lg2 {
-	width: 27%;
+	width: 38%;
 }
 .lg_text {
    	font-size: 14px;
    	color: #3B325F;
    }
 .lg_text1 {
-   	font-size: 12px;
-   	color: #3B325F;
+   	font-size: 11px;
+   	color: #3B325F !important;;
+
    }
 .link_none {
 	text-decoration: none;
@@ -43,8 +44,19 @@ footer {
     	border-radius: 8px !important; 
 }
 .btn_fs_lg {
-	font-size: 12px;
+	font-size: 11px;
 }
+.btn-primary {
+  font-size: 11px !important;
+  padding: 8px 15px !important;
+}
+.soc_icn {
+  width: 8% !important;
+}
+  .bg {
+    margin-right: 15px;
+    margin-left: 15px;
+   }
 
 
 @media (min-width: 350px) and (max-width: 800px) {
@@ -70,8 +82,9 @@ footer {
    	font-size: 11px;
    }
     .btn-primary {
-    	padding: 4px 12px !important;
-    }
+      padding: 8px 22px !important;
+      border-radius: 8px !important; 
+}
    .res_font_size {
    	font-size: 10px;
    	color: #3B325F;
@@ -85,8 +98,8 @@ footer {
    	font-size: 1px;
    }
    .bg {
-   	margin-right: 50px;
-   	margin-left: 50px;
+   	margin-right: 40px;
+   	margin-left: 40px;
    }
    .soc_icn {
    	width: 8%;
