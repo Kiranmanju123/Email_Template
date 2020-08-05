@@ -7,12 +7,13 @@
 }
 
 footer {
-	 background-color: #E9B640;
-	 border-radius: 15px;
-	 color: white;
-	 margin-right: 5%;
-	 margin-left: 5%;
+   background-color: #E9B640;
+   border-radius: 15px;
+   color: white;
+   margin-right: 5%;
+   margin-left: 5%;
 }
+
 
 
 .txt_lg{
@@ -119,7 +120,7 @@ footer {
    margin-left: 17%;
 }
   .border {
-  width: 90% !important;
+  width: 85% !important;
 }
 
 
@@ -231,7 +232,7 @@ footer {
 
 @media (min-width: 651px) and (max-width: 900px) {
   .border {
-  width: 55% !important;
+  width: 60% !important;
 }
   footer {
     margin-right: 17%;
