@@ -3,63 +3,19 @@
 <head>
 	<title>Email Template</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<style>
-	.lg_text {
-   	font-size: 13px;
-   	color: #3B325F;
-   }
-  
-.vv {
-	width: 90%;
-	margin: 0 auto;
-	border: 1px solid;
-	border-color: #F1F5F9;
-	border-radius: 10px;
 
-
-}
-.vv1 {
-	width: 95%;
-	margin: 0 auto;
-	border-radius: 10px;
-	border: 1px solid;
-	border-color: #F1F5F9;
-	border-radius: 10px;
-
-
-}
-
-	.btn1 {
-		background-color: #E9B640 !important;
-		border:none!important;
-		outline: none !important;
-		padding: 12px 30px !important;
-    	border-radius: 10px !important; 
-	}
-
-	.btn2 {
-		
-		border:none!important;
-		outline: none !important;
-		padding: 12px 30px !important;
-    	border-radius: 10px !important; 
-	}
-	.checkboxgroup{
-    display:inline-block;
-    text-align:center;
-}
-.checkboxgroup label {
-    display:block;
-}
-.space {
-	display: flex;
-	justify-content: space-between;
-	
+	footer {
+   background-color: #1F1837;
+   border-radius: 15px;
+   color: white;
+   margin-right: 5%;
+   margin-left: 5%;
 }
 	.investBackground{
- background-image: url("images/card_bck.png");
+ background-image: url("../images/card_bck.png");
  background-repeat: no-repeat;
  background-size: cover;
   background-position: bottom -160px left -75px;
@@ -72,7 +28,7 @@
 }
 	@media (min-width: 350px) and (max-width: 800px) {
 		.investBackground{
- background-image: url("images/goldicon.png");
+ background-image: url("../images/goldicon.png");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: bottom -135px left -65px;
@@ -84,7 +40,7 @@
 }
 
 #bg_left{
-	 background-image: url("images/left.svg");
+	 background-image: url("../images/left.svg");
 	 background-repeat: no-repeat;
  background-size: cover;
  position: absolute;
@@ -92,7 +48,7 @@
 }
 
 #bg_right{
-	 background-image: url("images/right.svg");
+	 background-image: url("../images/right.svg");
 	 background-repeat: no-repeat;
  background-size: cover;
  position: absolute;
@@ -124,79 +80,34 @@
 		
 		<div class="row">
 			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-			      <img src="images/goldlane_logo.svg" class="img-fluid img_resposive img_lg1 mt-4">
+			      <img src="../images/goldlane_logo_02.svg" class="img-fluid img_resposive img_lg1 mt-4">
 			 </div>
 		</div>
 
 		<div class="row mt-4">
 		    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-				  <h3 class="res_text lg_text" id="text_color"><b>Savings plan cancelled!</b></h3>
-	  
+				  <h3 class="res_text lg_text" id="text_color"><b>Welcome to GoldLane</b></h3>
+				  <h3 class="res_text lg_text" id="text_color"><b>connect Family!</b></h3>
+
+				  
 			</div>
 		</div>
 
 		<div class="row mt-3">
 			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-			      <img src="images/main_05.svg" class="img-fluid center-block img_lg img_sm">
-			      <h3 class="mt-3 res_text lg_text" id="text_color"><b>Hi User,</b></h3>
+			      <img src="../images/main_06.svg" class="img-fluid center-block img_lg img_sm">
+			      <h3 class="mt-3 res_text lg_text" id="text_color"><b>Hi user name, </b></h3>
 			     
-			   <h5 class="mt-4 res_text1 lg_text" id="text_color"><b>You have cancelled goldlane monthly</b></h5>
-			      <h5 class="mt-1 res_text1 lg_text" id="text_color"><b>savings plan. </b></h5>
-			      
+			   <h5 class="mt-4 res_text1 lg_text1" id="text_color"><b>Thanks for signing up.</b></h5>
 
+			    <h5 class="mt-4 res_text1 lg_text1" id="text_color">Simply verify your email address so we know </h5>
+			     <h5 class="mt-1 res_text1 lg_text1" id="text_color">this account belongs to you.</h5>
 			      
+			      <button type="button" class="btn btn-primary mt-4"><b>Verify Email Address</b></button>
 		   </div>
 		</div>
 
-		<div class="row vv1 mt-4">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-2">
-			    <table style="width:100%">
-			    	<div class="border-bottom">
-			    		<h5 class="res_text1 lg_text mt-2"><b>Plan Details</b></h5>
-			    	</div>
-			  
-
-			  <div class="mt-2">
-			      <tr>
-			         <td class="lg_text">Plan Name:</td>
-			         <td class="lg_text"><b>Thanos</b></td>
-			       
-			      </tr>
-			      <tr>
-			         <td class="lg_text">Savings Plan ID:</td>
-			         <td class="lg_text"><b>12345677</b></td>
-			       
-			      </tr>
-			      <tr>
-			         <td class="lg_text">Savings Plan Item:</td>
-			         <td class="lg_text"><b> 1 gram of 999 Gold</b></td>
-			       
-			      </tr>
-			      <tr>
-			         <td class="lg_text">Start Date:</td>
-			         <td class="lg_text"><b>10/12/2020</b></td>
-			       
-			      </tr>
-			      <tr>
-			         <td class="lg_text">End Date:</td>
-			         <td class="lg_text"><b> 10/12/2024</b></td>
-			       
-			      </tr>
-			     
-			 </div>
-			    </table>
-
-			
-				
-			</div>
-
-
-		</div>
-
-
-
-
-	<footer class="investBackground bg mt-4"> 
+	<footer class="investBackground bg mt-5"> 
         <div class="container">
 		    <div class="row">
 			      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
@@ -205,11 +116,11 @@
 			</div>
 
 		    <div  class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center mt-3 pb-4 res_font_size_icons text-center">
-			        <a class="pr-3"><img style="width: 3% !important;"  class="soc_icn" src="images/fb.svg"></a>
-			        <a class="pr-3"><img class="soc_icn" src="images/insta.svg"></a>
-			        <a class="pr-3"><img class="soc_icn" src="images/twitter.svg"></a>
-			        <a class="pr-3"><img class="soc_icn" src="images/youtube.svg"></a>
-			        <a><img class="soc_icn" src="images/in.svg"></a>
+			        <a class="pr-3"><img style="width: 3% !important;"  class="soc_icn" src="../images/fb.svg"></a>
+			        <a class="pr-3"><img class="soc_icn" src="../images/insta.svg"></a>
+			        <a class="pr-3"><img class="soc_icn" src="../images/twitter.svg"></a>
+			        <a class="pr-3"><img class="soc_icn" src="../images/youtube.svg"></a>
+			        <a><img class="soc_icn" src="../images/in.svg"></a>
                     
 		    </div>
 		 </div>

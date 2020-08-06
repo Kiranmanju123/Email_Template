@@ -33,7 +33,7 @@ footer {
    	color: #3B325F;
    }
 .lg_text1 {
-   	font-size: 11px;
+   	font-size: 12px;
    	color: #3B325F !important;;
 
    }
@@ -232,7 +232,7 @@ footer {
 
 @media (min-width: 651px) and (max-width: 900px) {
   .border {
-  width: 60% !important;
+  width: 55% !important;
 }
   footer {
     margin-right: 17%;
@@ -397,3 +397,4 @@ footer {
 
   }
 }
+

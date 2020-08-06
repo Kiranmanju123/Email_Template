@@ -82,11 +82,46 @@
 	width: 45%;
 }
 }
+
+#bg_left{
+	 background-image: url("images/left.svg");
+	 background-repeat: no-repeat;
+ background-size: cover;
+ position: absolute;
+ background-position: bottom 140px left -170px;
+}
+
+#bg_right{
+	 background-image: url("images/right.svg");
+	 background-repeat: no-repeat;
+ background-size: cover;
+ position: absolute;
+ background-position: bottom 250px right -180px;
+}
 	</style>
 </head>
 <body>
 	
 	<div class="container mt-2 border">
+
+		<div class="row" >
+
+			<div class="col-md-6" style="margin-left:-15px">
+				
+				<div class="container" id="bg_left" style="height: 300px;">
+
+				</div>
+			</div>
+
+			<div class="col-md-6" >
+				<div class="container" id="bg_right" style="height: 360px;">
+
+				</div>
+				
+			</div>
+
+		</div>
+
 		
 		<div class="row">
 			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
