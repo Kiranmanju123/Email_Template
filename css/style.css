@@ -1,4 +1,33 @@
 
+input[type='radio']:after {
+        width: 17px;
+        height: 17px;
+        border-radius: 10px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+       /* border: 2px solid white;*/
+    }
+
+    input[type='radio']:checked:after {
+        width: 17px;
+        height: 17px;
+        border-radius: 10px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color:#E9B640;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+       /* border: 2px solid white;*/
+    }
+
+
 #text_color{
  color: #3B325F;
 }
@@ -40,16 +69,17 @@ footer {
 .link_none {
 	text-decoration: none;
 }
-.btn-primary {
-    	padding: 4px 22px !important;
+/*.btn-primary {
+    	padding: 4px 25px !important;
     	border-radius: 8px !important; 
-}
+}*/
 .btn_fs_lg {
 	font-size: 11px;
 }
 .btn-primary {
   font-size: 11px !important;
-  padding: 8px 15px !important;
+  padding: 10px 20px !important;
+  border-radius: 8px !important; 
 }
 .soc_icn {
   width: 6% !important;
